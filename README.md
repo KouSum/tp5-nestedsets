@@ -78,8 +78,8 @@ CREATE TABLE `user` (
 class User extends Model
 {
     public $nestedConfig = [
-        'leftKey' => 'lft',
-        'rightKey' => 'rgt'
+        'left_Key' => 'lft',
+        'right_Key' => 'rgt'
     ];
 
 }
